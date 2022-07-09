@@ -60,7 +60,7 @@ describe('Tests for DELETE method', () => {
 
   it('Make sure that record with empty value can be added', async () => {
     await _spec.use('DELETE', { main_key: '1987' }).expectStatus(400)
-      .expectBody(values.emptyMainKeyMessage).inspect();
+      .expectBody(values.notExistMessage).inspect();
   });
 
   it('Make sure that validation works properly when passing main_key value different from string', async () => {
