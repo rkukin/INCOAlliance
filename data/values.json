@@ -1,0 +1,10 @@
+{
+  "duplicatedEntityMessage": "value already exist",
+  "noMainKeyMessage": "'main_key'",
+  "emptyMainKeyMessage": "'list' object has no attribute 'get'",
+  "noValueMessage": "'value'",
+  "recordsCapacity": 10,
+  "capReachedMessage": "you reached your quta",
+  "notSupportedDataTypeMessage": "'NoneType' object has no attribute 'get'",
+  "notExistMessage": "value dose not exist"
+}
